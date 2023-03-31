@@ -5,7 +5,7 @@ inputName.addEventListener('input', changeName);
 
 
 function changeName(evt) {
-   let userName = evt.currentTarget.value;  
+   let userName = evt.currentTarget.value.trim();  
     if (!userName) {
            outputName.textContent = "Anonymous"
     } else {

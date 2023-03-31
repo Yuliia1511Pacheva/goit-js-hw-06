@@ -2,6 +2,8 @@ const decrBtn = document.querySelector('[data-action="decrement"]');
 const incrBtn = document.querySelector('[data-action="increment"]');
 const valueEl = document.querySelector('#value');
 
+// const link = document.querySelector('link[href="css/common.css"]');
+// console.log(link);
 
 decrBtn.addEventListener('click', decreaseCount);
 incrBtn.addEventListener('click', increaseCount);
